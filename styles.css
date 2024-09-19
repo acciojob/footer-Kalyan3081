@@ -1,1 +1,78 @@
 /* your code here */
+footer {
+        background-color: #282828;
+        color: white;
+        padding: 20px;
+      }
+
+      .content {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      .logo-details {
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      .media-icons {
+        display: flex;
+        gap: 10px;
+      }
+
+      .media-icons a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+      }
+
+      .link-boxes {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+      }
+
+      .link-box {
+        width: 20%;
+        margin: 10px 0;
+      }
+
+      .link-box h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .link-box a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        display: block;
+        margin: 5px 0;
+      }
+
+      .bottom-details {
+        text-align: center;
+        padding: 10px 0;
+        border-top: 1px solid #444;
+      }
+
+      /* Responsiveness */
+      @media (max-width: 768px) {
+        .link-box {
+          width: 45%;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .link-box {
+          width: 100%;
+        }
+
+        .media-icons {
+          justify-content: center;
+        }
+      }
